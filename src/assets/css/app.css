@@ -1,5 +1,35 @@
 .nav-logo{
     /* font-family: 'Inknut Antiqua', serif !important; */
     font-family: 'Poppins', sans-serif !important;
-    font: 2rem 600 "Poppins";
+    font-size: 400;
 }
+
+.sign-btn{
+    background-color: #428B95;
+    color: white;
+    border-radius: 40px;
+}
+
+.web-p{
+    /* font-weight: 600;  */
+    font-family: "Poppins", sans-serif;
+    font: 4rem 600 "Poppins"; 
+    font-size: large;
+    color:  #ffffff;
+}
+
+
+.team:hover{
+    animation-name: example;
+    animation-duration: 4s;
+    border: 2rem black;
+}
+
+@keyframes example {
+    from {background-color: rgb(240, 240, 241);}
+    to {background-color: #aadfec;}
+  }
+
+  .avatar{
+      border: 2rem black;
+  }
